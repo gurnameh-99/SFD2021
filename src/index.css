@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "GlacialInDifference-Bold";
+  src: local("GlacialInDifference-Bold"),
+     url("./fonts/GlacialIndifference-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GlacialInDifference-Regular";
+  src: local("GlacialInDifference-Regular"),
+     url("./fonts/GlacialIndifference-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
