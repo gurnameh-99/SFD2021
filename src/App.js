@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
+import React from 'react';
+import Carousel from "react-elastic-carousel";
+import Card from './components/Card';
+import "./index.css";
+
+
+
+
+export default function App(){
+  const breakPoints = [
+    {width: 1,itemsToShow:1},
+    {width: 500,itemsToShow:2},
+    {width: 768,itemsToShow:3},
+    {width: 1200,itemsToShow:4}
+  ]
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <h1 style={{textAlign:"left"}}>Features</h1>
+    <p style={{textAlign:"left"}}>Our goal is to educate young professionals on product management</p>
+    <Carousel breakPoints={breakPoints}>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      
+    </Carousel>
 
-export default App;
+    </div>
+  )
+}
