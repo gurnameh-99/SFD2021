@@ -14,7 +14,7 @@ body {
 }
 .header-container {
   padding: 12em 1em 1em 12em;
-  max-width: 28%;
+  max-width: 32%;
 }
 .header-container h1 {
   margin: 0 0 1.45rem;
@@ -34,9 +34,10 @@ body {
 }
 .header-image {
   position: relative;
-  top: -27em;
+  top: -23em;
   left: 28vw;
-  height: 32em;
+  height: 33em;
+  z-index: -1;
 }
 .subscribe-form-container {
   position: relative;
