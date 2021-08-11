@@ -14,6 +14,7 @@ import {
   Label,
   Outline,
   Span,
+  CustomLink
 } from "./styles";
 
 const Header = ({ t }: any) => {
@@ -28,30 +29,30 @@ const Header = ({ t }: any) => {
   };
 
   const MenuItem = () => {
-    const scrollTo = (id: string) => {
-      const element = document.getElementById(id) as HTMLDivElement;
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-      setVisibility(false);
-    };
+    // const scrollTo = (id: string) => {
+    //   const element = document.getElementById(id) as HTMLDivElement;
+    //   element.scrollIntoView({
+    //     behavior: "smooth",
+    //   });
+    //   setVisibility(false);
+    // };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
-        </CustomNavLinkSmall>
+        <CustomLink to="Archive">
+          <Span>{t("Archive")}</Span>
+        </CustomLink>
+        <CustomLink to="/Schedule">
+          <Span>{t("Schedule")}</Span>
+        </CustomLink>
+        <CustomLink to="callForPapers">
+            <Span>{t("Call For Papers")}</Span>
+        </CustomLink>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => window.open("https://www.google.com", "_blank")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button color={'#40af92'}>{t("Register")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -63,7 +64,7 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="Sfd Logo.svg" width="300px" height="200px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

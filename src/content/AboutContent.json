@@ -1,16 +1,48 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "PClub",
+  "text": "Software Freedom Day is organized by Programming Club UIET or PCIub for short - is a student-driven society that aims at educating students and to spread selfless knowledge of various domains of Computer Science, organizes hackathons, and celebrate Open-Source. It's more of a community. We teach, we learn and we grow, together.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "icon": "linkedin.svg",
+      "link": "https://www.linkedin.com/company/pclubbuiet/"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "icon": "twitter.svg",
+      "link": "https://twitter.com/PClubUIET"
+    },
+    {
+      "icon": "instagram.svg",
+      "link": "https://www.instagram.com/pclubuiet/"
+    },
+    {
+      "icon": "youtube.svg",
+      "link": "https://www.youtube.com/channel/UCX57TDjAW9ssGEdTG_u4Fyg"
+    },
+    {
+      "icon": "website.svg",
+      "link": "https://www.pclubuiet.com/"
+    },
+    {
+      "icon": "facebook.svg",
+      "link": "https://www.facebook.com/pclubuiet"
+    }
+  ],
+  "images": [
+    {
+      "src": "/img/pclub/pclub-img.jpg",
+      "alt": "Pclub UIET"
+    },
+    {
+      "src": "/img/pclub/Gallery_img5.jpg",
+      "alt": "Pclub UIET"
+    },
+    {
+      "src": "/img/pclub/Gallery_img0.jpg",
+      "alt": "Pclub UIET"
+    },
+    {
+      "src": "/img/pclub/Gallery_img1.jpg",
+      "alt": "Pclub UIET"
     }
   ]
 }

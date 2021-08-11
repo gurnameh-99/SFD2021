@@ -1,6 +1,6 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
+    "title": "What is free software ?",
+    "text": "Free and open-source software (FOSS) allows users and programmers to edit, modify or reuse the software's source code. This gives developers the opportunity to improve program functionality by modifying it.",
+    "button": {"title":"Learn More"}
   }
   

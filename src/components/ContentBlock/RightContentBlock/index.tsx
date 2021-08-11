@@ -36,12 +36,13 @@ const RightBlock = ({
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
+                    console.log(item);
                     return (
                       <Button
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => scrollTo(t(item.link))}
                       >
                         {t(item.title)}
                       </Button>

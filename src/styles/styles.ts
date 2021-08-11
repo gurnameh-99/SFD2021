@@ -29,6 +29,10 @@ export const Styles = createGlobalStyle`
         outline: 0;
         background: #fff;
         overflow-x: hidden;
+        background-image: url("/img/background/homepage-b6f21314d61304ebbfb121c26cf74975.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: -webkit-fill-available;
     }
 
     a:hover {
@@ -58,7 +62,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #181b31;
         font-size: 56px;
         line-height: 1.18;
 
@@ -84,7 +88,7 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #53b79d;
 
         :hover {
             color: #2e186a;
@@ -108,5 +112,31 @@ export const Styles = createGlobalStyle`
 
     .ant-drawer-content-wrapper {
         width: 300px !important;
+    }
+
+    .my-modal {
+        width: 90vw;    /* Occupy the 90% of the screen width */
+        max-width: 90vw;
+        height: 90vh;
+        max-height: 90vh;
+    }
+
+    .view-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ant-carousel .slick-prev,
+    .ant-carousel .slick-next,
+    .ant-carousel .slick-prev:hover,
+    .ant-carousel .slick-next:hover,
+    .ant-carousel .slick-prev:focus,
+    .ant-carousel .slick-next:focus {
+        font-size: 20px;
+        color: currentColor;
+    }
+
+    img {
+        object-fit: fill;
     }
 `;

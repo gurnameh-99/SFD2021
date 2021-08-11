@@ -11,6 +11,7 @@ export const LeftContentSection = styled("section")`
 
 export const Content = styled("p")`
   margin: 1.5rem 0 2rem 0;
+  white-space: pre-line;
 `;
 
 export const ContentWrapper = styled("div")`
