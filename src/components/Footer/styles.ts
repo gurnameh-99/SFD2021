@@ -1,9 +1,44 @@
 import styled from "styled-components";
+import { Col } from "antd";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
   background: rgb(241, 242, 243);
   padding: 2.5rem 0;
+
+  a {
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: capitalize;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 0.625rem;
+    transition: all 0.3s ease-in-out;
+    max-width: max-content;
+
+    &:hover {
+      color: rgb(255, 130, 92);
+      text-underline-position: under;
+      text-decoration: rgb(255, 130, 92) wavy underline;
+    }
+  }
+`;
+
+export const CustomCol = styled(Col)`
+  colspan: 6;
+  @media only screen and (max-width: 1024px) {
+    span: 6;
+  }
+
+  @media only screen and (max-width: 768px) {
+    span: 6;
+  }
+
+  @media only screen and (max-width: 414px) {
+    
+  }
 `;
 
 export const Title = styled("h4")`
@@ -35,7 +70,7 @@ export const Extra = styled("section")`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 `;
 
 export const LogoContainer = styled("div")`
@@ -91,7 +126,7 @@ export const FooterContainer = styled("div")`
   max-width: 510px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;

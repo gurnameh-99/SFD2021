@@ -58,7 +58,6 @@ export const Styles = createGlobalStyle`
     h1,
     h2,
     h3,
-    h4,
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
@@ -79,10 +78,30 @@ export const Styles = createGlobalStyle`
         color: #18216d;
         font-size: 21px;        
         line-height: 1.41;
+        white-space: pre-line;
+    }
+    
+    li {
+        font-size: 21px;
     }
 
     h1 {
         font-weight: 600;
+    }
+
+    h3 {
+        font-family: 'Motiva Sans Bold', serif;
+        color: #181b31;
+        font-size: 36px;
+        line-height: 1.18;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 24px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 24px;
+        }
     }
 
     a {
@@ -138,5 +157,17 @@ export const Styles = createGlobalStyle`
 
     img {
         object-fit: fill;
+    }
+
+    .google-map-code {
+        width: 400px;
+        height: 300px;
+        @media only screen and (max-width: 890px) {
+            font-size: 24px;
+          }
+        @media only screen and (max-width: 414px) {
+            width: 300px;
+            height: 200px;
+          }
     }
 `;

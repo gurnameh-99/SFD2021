@@ -18,6 +18,11 @@ const routes = [
     path: ["/Schedule"],
     exact: true,
     component: "Schedule"
+  },
+  {
+    path: ["/CodeofConduct"],
+    exact: true,
+    component: "CodeofConduct"
   }
 ];
 
