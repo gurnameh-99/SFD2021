@@ -45,7 +45,7 @@ const Header = ({ t }: any) => {
           <Span>{t("Schedule")}</Span>
         </CustomLink>
         <CustomLink to="callForPapers">
-            <Span>{t("Call For Papers")}</Span>
+            <Span>{t("Call For Proposals")}</Span>
         </CustomLink>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
