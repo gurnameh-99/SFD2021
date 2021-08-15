@@ -23,6 +23,11 @@ const routes = [
     path: ["/CodeofConduct"],
     exact: true,
     component: "CodeofConduct"
+  },
+  {
+    path: ["/Team"],
+    exact: true,
+    component: "Team"
   }
 ];
 
