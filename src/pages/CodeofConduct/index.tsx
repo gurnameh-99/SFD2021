@@ -19,7 +19,7 @@ const CodeOfConduct = (() => <Container>
             </ul>
             <br />
             <p>This Code of Conduct applies to the venue of SFD 2020 Conference, pre-event and post-event informal gathering, and all events organized by the organizing committee of Software Freedom Day.</p>
-            <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact someone from the organizing committee. The organizing team will be wearing “Organizing Team” I-D cards and you can approach them for any kind of queries. Thank you for helping make this a welcoming, friendly event for all.</p>
+            <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact someone from the organizing committee. Thank you for helping make this a welcoming, friendly event for all.</p>
         </Col>
     </Row>
 </Container>);

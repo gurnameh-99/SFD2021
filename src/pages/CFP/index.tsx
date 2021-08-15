@@ -1,12 +1,14 @@
 import { lazy } from "react";
 import { Col, Row } from "antd";
+import { CustomNavLinkSmall, Span } from "./styles";
+import { Button } from "../../common/Button";
 
 const Container = lazy(() => import("../../common/Container"));
 const CFP = () => {
     return <>
         <Container>
             <Row justify="center" style={{ paddingBlockEnd: '0em' }}>
-                <h6 style={{alignItems: "center"}}>Welcome to SFD 2021 CFP</h6>
+                <h6 style={{ alignItems: "center" }}>Welcome to SFD 2021 CFP</h6>
             </Row>
             <hr style={{
                 color: "grey",
@@ -23,7 +25,7 @@ const CFP = () => {
             <Row justify="start">
                 <Col>
                     <h3>Who Should Submit a Proposal?</h3>
-                    <p>We value any proposal you may submit. As it is our goal to put SFD on the map when it comes to quality, we will consider any talks and/or workshop proposals submitted by experts and qualified professionals. It does not matter to us if you are new to the stage or a veteran presenter – if you know that you have something to contribute to SFD 2020 we would love to hear from you.</p>
+                    <p>We value any proposal you may submit. As it is our goal to put SFD on the map when it comes to quality, we will consider any talks and/or workshop proposals submitted by experts and qualified professionals. It does not matter to us if you are new to the stage or a veteran presenter – if you know that you have something to contribute to SFD 2021 we would love to hear from you.</p>
                 </Col>
             </Row>
             <Row justify="start">
@@ -46,6 +48,16 @@ const CFP = () => {
                         <li>We encourage a wide range of topic spanning from development, business solution and personal experience among others. Please let us know in advance what media are you planning to use and if you have any special / out of ordinary requirements.</li>
                     </ul>
                 </Col>
+            </Row>
+            <Row justify="center" style={{ paddingBlockEnd: '3em' }}>
+                <CustomNavLinkSmall
+                    style={{ width: "180px" }}
+                    onClick={() => window.open("https://www.papercall.io/sfd-2021", "_blank")}
+                >
+                    <Span>
+                        <Button color={'#40af92'}>{"Submit Proposal"}</Button>
+                    </Span>
+                </CustomNavLinkSmall>
             </Row>
         </Container>
     </>;
