@@ -44,7 +44,7 @@ const Header = ({ t }: any) => {
         <CustomLink to="/Schedule">
           <Span>{t("Schedule")}</Span>
         </CustomLink>
-        <CustomLink to="callForPapers">
+        <CustomLink to="callForProposal">
             <Span>{t("CFP")}</Span>
         </CustomLink>
         <CustomLink to="Team">

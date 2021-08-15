@@ -5,7 +5,7 @@ const routes = [
     component: "Home",
   },
   {
-    path: ["/callForPapers"],
+    path: ["/callForProposal"],
     exact: true,
     component: "CFP"
   },
