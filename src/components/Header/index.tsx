@@ -52,7 +52,7 @@ const Header = ({ t }: any) => {
         </CustomLink>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => window.open("https://www.google.com", "_blank")}
+          onClick={() => window.open("https://www.eventbrite.com/e/166897315363", "_blank")}
         >
           <Span>
             <Button color={'#40af92'}>{t("Register")}</Button>
