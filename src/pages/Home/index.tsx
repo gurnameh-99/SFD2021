@@ -5,6 +5,7 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ModalVideo from 'react-modal-video';
+import Banner from "../../components/Banner";
 
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
@@ -58,6 +59,7 @@ const Home = () => {
           icon="graphs.svg"
           id="about"
         />
+        <Banner />
       </Container>
     </>
   );

@@ -30,9 +30,12 @@ export const Styles = createGlobalStyle`
         background: #fff;
         overflow-x: hidden;
         background-image: url("/img/background/homepage-b6f21314d61304ebbfb121c26cf74975.png");
-        background-repeat: no-repeat;
         background-size: cover;
-        width: -webkit-fill-available;
+        background-repeat: no-repeat;
+        height: 100%;
+        @media only screen and (max-width: 1600px) {
+            background-size: auto;
+        }
     }
 
     a:hover {
