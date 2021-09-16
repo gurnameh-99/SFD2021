@@ -3,9 +3,10 @@ import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
+import SpeakersContent from "../../content/SpeakersContent.json";
 import ModalVideo from 'react-modal-video';
 import Banner from "../../components/Banner";
+import SpeakerBlock from "../../components/speakers";
 
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
@@ -17,7 +18,7 @@ const Home = () => {
 
   return (
     <>
-      <ModalVideo channel='youtube' autoplay={true} isOpen={videoShow} videoId="SpeDK1TPbew" onClose={() => setVideoShow(false)} /> 
+      <ModalVideo channel='youtube' autoplay={true} isOpen={videoShow} videoId="SpeDK1TPbew" onClose={() => setVideoShow(false)} />
       <Container >
         <ScrollToTop />
         <ContentBlock
@@ -42,13 +43,7 @@ const Home = () => {
           icon="Programming 1.svg"
           id="mission"
         />
-        <ContentBlock
-          type="left"
-          title={ProductContent.title}
-          content={ProductContent.text}
-          icon="Freedom.svg"
-          id="product"
-        />
+        <SpeakerBlock items={SpeakersContent}/>
         <ContentBlock
           type="left"
           title={AboutContent.title}
@@ -59,6 +54,7 @@ const Home = () => {
           icon="graphs.svg"
           id="about"
         />
+
         <Banner />
       </Container>
     </>

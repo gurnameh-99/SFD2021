@@ -36,7 +36,6 @@ const RightBlock = ({
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
-                    console.log(item);
                     return (
                       <Button
                         key={id}
