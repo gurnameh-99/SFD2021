@@ -173,4 +173,40 @@ export const Styles = createGlobalStyle`
             height: 200px;
           }
     }
+
+    button:disabled {
+        opacity: 0.5;
+    }
+
+    .vertical-timeline.vertical-timeline-custom-line::before {
+        background: #0c7578a3;
+        border-radius: 50%;
+      }
+
+      .vertical-timeline-element-content {
+        color: black;
+    }
+    
+    .vertical-timeline-element--work .vertical-timeline-element-content {
+        border-top: 3px solid #fabc3d;
+    }
+    
+    .vertical-timeline-element--education .vertical-timeline-element-content {
+        border-top: 3px solid #e91e63;
+    }
+    
+    .vertical-timeline-element-date {
+      color: #333;
+    }
+    
+    /* Icon container's border */
+    .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+      box-shadow: 0 0 0 4px #b67a00, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    }
+    
+    .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
+      box-shadow: 0 0 0 4px #c2185b, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    }
+    
+      
 `;

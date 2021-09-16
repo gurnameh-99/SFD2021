@@ -9,6 +9,7 @@ export interface ButtonProps {
   name?: string;
   textColor?: string;
   children: React.ReactNode;
+  disabled?: boolean;
   onClick?: () => void;
 }
 
