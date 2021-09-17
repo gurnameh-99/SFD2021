@@ -33,7 +33,7 @@ const Schedule = () => {
                         <h3 className="vertical-timeline-element-title">Sonia Singla</h3>
                         <h4 className="vertical-timeline-element-subtitle">10:30 - 11:30 am IST</h4>
                         <p>
-                            Browsers and open source in the web domain.
+                            Introduction to Starport
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -61,7 +61,7 @@ const Schedule = () => {
                         <h3 className="vertical-timeline-element-title">Zarreen Naowal Reza</h3>
                         <h4 className="vertical-timeline-element-subtitle">3:15 - 4:15 pm IST</h4>
                         <p>
-                            Data Science, deep learning and the role of open source.
+                            Climbing up the Ladder Through Open-source Contribution
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
