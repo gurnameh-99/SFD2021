@@ -47,7 +47,7 @@ const Schedule = () => {
                     <h3 className="vertical-timeline-element-title">Gokul Alex</h3>
                     <h4 className="vertical-timeline-element-subtitle">12:00 - 1:00 pm IST</h4>
                     <p>
-                        Blockchain and its applications in open source.
+                    Post Quantum Cryptography - Facets and Frontiers
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -89,7 +89,7 @@ const Schedule = () => {
                     <h3 className="vertical-timeline-element-title">Madhava Jay</h3>
                     <h4 className="vertical-timeline-element-subtitle">10:30 - 11:30 am IST</h4>
                     <p>
-                        Open source journey and his contrbutions at OpenMined - An Organisation focussed on Privacy in AI.
+                    Open Source is your Destiny.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
