@@ -33,7 +33,7 @@ const Schedule = () => {
                         <h3 className="vertical-timeline-element-title">Sonia Singla</h3>
                         <h4 className="vertical-timeline-element-subtitle">10:30 - 11:30 am IST</h4>
                         <p>
-                            Introduction to Starport
+                            Introduction to Starport.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -103,7 +103,7 @@ const Schedule = () => {
                         <h3 className="vertical-timeline-element-title">Adyasha Mohanty</h3>
                         <h4 className="vertical-timeline-element-subtitle">12:00 - 1:00 pm IST</h4>
                         <p>
-                            User Experience, User Interface design and FOSS.
+                            My journey from open source to HackerRank.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
