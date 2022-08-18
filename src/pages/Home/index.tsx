@@ -3,10 +3,10 @@ import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
-import SpeakersContent from "../../content/SpeakersContent.json";
+// import SpeakersContent from "../../content/SpeakersContent.json";
 import ModalVideo from "react-modal-video";
 import Banner from "../../components/Banner";
-import SpeakerBlock from "../../components/speakers";
+// import SpeakerBlock from "../../components/speakers";
 
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
