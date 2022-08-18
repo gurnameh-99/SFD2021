@@ -14,7 +14,7 @@ import {
   Label,
   Outline,
   Span,
-  CustomLink
+  CustomLink,
 } from "./styles";
 
 const Header = ({ t }: any) => {
@@ -45,17 +45,17 @@ const Header = ({ t }: any) => {
           <Span>{t("Schedule")}</Span>
         </CustomLink>
         <CustomLink to="callForProposal">
-            <Span>{t("CFP")}</Span>
+          <Span>{t("CFP")}</Span>
         </CustomLink>
-        <CustomLink to="Team">
+        {/* <CustomLink to="Team">
           <Span>{t("Team")}</Span>
-        </CustomLink>
+        </CustomLink> */}
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => window.open("https://www.eventbrite.com/e/166897315363", "_blank")}
         >
           <Span>
-            <Button color={'#40af92'}>{t("Register")}</Button>
+            <Button color={"#40af92"}>{t("Register")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>

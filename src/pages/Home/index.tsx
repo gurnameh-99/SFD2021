@@ -4,7 +4,7 @@ import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import SpeakersContent from "../../content/SpeakersContent.json";
-import ModalVideo from 'react-modal-video';
+import ModalVideo from "react-modal-video";
 import Banner from "../../components/Banner";
 import SpeakerBlock from "../../components/speakers";
 
@@ -18,8 +18,14 @@ const Home = () => {
 
   return (
     <>
-      <ModalVideo channel='youtube' autoplay={true} isOpen={videoShow} videoId="SpeDK1TPbew" onClose={() => setVideoShow(false)} />
-      <Container >
+      <ModalVideo
+        channel="youtube"
+        autoplay={true}
+        isOpen={videoShow}
+        videoId="SpeDK1TPbew"
+        onClose={() => setVideoShow(false)}
+      />
+      <Container>
         <ScrollToTop />
         <ContentBlock
           type="right"
@@ -43,7 +49,7 @@ const Home = () => {
           icon="Programming 1.svg"
           id="mission"
         />
-        <SpeakerBlock items={SpeakersContent}/>
+        {/* <SpeakerBlock items={SpeakersContent}/> */}
         <ContentBlock
           type="left"
           title={AboutContent.title}
