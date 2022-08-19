@@ -7,28 +7,28 @@ const routes = [
   {
     path: ["/callForProposal"],
     exact: true,
-    component: "CFP"
+    component: "CFP",
   },
   {
     path: ["/Archive"],
     exact: true,
-    component: "Archive"
+    component: "Archive",
   },
   {
     path: ["/Schedule"],
     exact: true,
-    component: "Schedule"
+    component: "ComingSoon",
   },
   {
     path: ["/CodeofConduct"],
     exact: true,
-    component: "CodeofConduct"
+    component: "CodeofConduct",
   },
-  {
-    path: ["/Team"],
-    exact: true,
-    component: "Team"
-  }
+  // {
+  //   path: ["/Team"],
+  //   exact: true,
+  //   component: "Team",
+  // },
 ];
 
 export default routes;

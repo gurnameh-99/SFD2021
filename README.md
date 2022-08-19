@@ -1,8 +1,8 @@
-# SFD 2021 Website
+# SFD 2022 Website
 
 using TypeScript and React.
 
-##  Development RUN
+## Development RUN
 
 - `npm install yarn`
 - `yarn install`
