@@ -1,0 +1,94 @@
+[
+    [
+    {
+        "name": "Gokul Alex",
+        "desc": "Gokul Alex is adept in Digital Transformation, Data Science, Distributed Ledger and Innovation Consulting. He has over 20 years of experience in designing world class enterprise architectures for both government and private sectors. He is the co-founder and Chief Technology officer at Gigamesh Garage Ventures.",
+        "img": "/img/speakers/Gokul Alex.jpeg",
+        "link": "https://www.linkedin.com/in/gokulgaze",
+        "id":"NbSv1gRlE1c"
+    },
+    {
+        "name": "Zarreen Naowal Reza",
+        "desc": "Zarreen has a plethora of experience working as a data scientist. She is now employed at Thales Canada Inc, and has also worked as research scientist at OpenMined. An alumni of Windsor University with various accolades like Nutix Hybrid Cloud Scholar and Leadership Fellow.",
+        "img": "/img/speakers/Zarreen Naowal Reza.png",
+        "link": "https://www.linkedin.com/in/zarreennreza/",
+        "id" : "zOuT6WU02_4"
+    },
+    {
+        "name": "Madhava Jay",
+        "desc": "He is an Artificial Intelligence Engineer with 18 years of experience with the web and more than a decade worth of experience with mobile apps. He has been working with AI since 2017. He graduated from Udacity’s 6 months Artificial Intelligence Nanodegree choosing Computer Vision as his final capstone project.",
+        "img": "/img/speakers/Madhava Jay.jfif",
+        "link": "https://www.linkedin.com/in/madhavajay/",
+        "id" : "ghvE6Y1oIrs"
+    }
+],
+    [
+    {
+        "name": "Sonia Singla",
+        "desc": "Sonia Singhla, alumni of Panjab University, is an open-source enthusiast and is passionate about browsers, web compatibility, developer tooling and developer communities. She is currently employed at tendermint as a developer relations engineer and completed her internship with Embark studios",
+        "img": "/img/speakers/Sonia Singla.jpg",
+        "link": "https://www.linkedin.com/in/soniasinglas/?originalSubdomain=in",
+         "id":"gHUIEWrOKxw"
+        
+    },
+    {
+        "name": "Adyasha Mohanty",
+        "desc": "Adyasha is an undergrad from CET, Bhubaneswar, specialising in UI/UX, frontend and software engineering. She is currently interning at Hackerrank and has worked as Frontend and UI/UX Developer Intern at uncopied.art. Not only this she has also been a mentor at GirlScript Summer of Code and a software developer at Zairza.",
+        "img": "/img/speakers/Adyasha Mohanty.jpg",
+        "link": "https://www.linkedin.com/in/adyasha-mohanty/",
+         "id":"uGNL9Uls_LQ"
+    },
+    {
+        "name": "Apaar Kamal",
+        "desc": "Apaar Kamal has just finished his undergrad at DTU and has taken up the role of Software Engineer at Google. His day to day work involves Google Cloud Platform. But his achievements don't stop here. He is a 6 star competitive programmer. Not only this, he has had experience as mentor at his time at Coding Block and Coding Minutes. ",
+        "img": "/img/speakers/Apaar Kamal.png",
+        "link": "https://www.linkedin.com/in/apaarkamal",
+         "id":""
+    }
+],
+[
+    {
+        "name": "Akshay Kumar",
+        "desc": "Akshay Kumar is an alumnus of Panjab University. He is currently Software Development Engineer at AppyHigh, working mostly on backend. Apart from that, he has also interned as a mentor for GSOC and also as a Software Developer at Block8, not only this, he has worked on blockchain and hyperledger at his time as an intern at Chaincode Consulting.",
+        "img": "/img/speakers/Akshay Kumar.jpg",
+        "link": "https://www.linkedin.com/in/dev-akshay-kumar/",
+         "id":"4JVsONj8YZk"
+    },
+    {
+        "name": "Jivitesh Dhaliwal",
+        "desc": "Jivitesh Dhaliwal is an alumnus of Panjab University. He is currently working as a Game Designer Lead at Otherworld Interactive. His experience is diverse, ranging from assistant professor teaching game development to working on code to improve 4G router performance by designing traffic routing algorithms. He has also previously interned as game developer at Sony.",
+        "img": "/img/speakers/Jivitesh Dhaliwal.jpg",
+        "link": "https://www.linkedin.com/in/jiviteshdhaliwal/",
+         "id":"4JVsONj8YZk"
+    },
+    {
+        "name": "Pranav Kumar",
+        "desc": "Pranav Kumar is an alumnus of Panjab University. He is currently working as Embedded Systems Engineer at Flux Auto and has worked at Riku too. He is an avid Open Source Contributor and has contributed quite a bit at BeagleBoard. Not only this he also has experience in research and has worked with 3d printing technologies on it. ",
+        "img": "/img/speakers/Pranav Kumar.jpg",
+        "link": "https://www.linkedin.com/in/pranav083/",
+         "id":"4JVsONj8YZk"
+    }
+],[
+    {
+        "name": "Madhav Gaba",
+        "desc": "With a strong hold in Data Structures and Algorithms with an impressive track record in Open Source and GSOC, Madhav Gaba has also made his name in corporate. He is currently an SDE at ShareChat and has also interned at Goldman Sachs. He will be sharing his experience and know-hows at SFD this year.",
+        "img": "/img/speakers/Madhav Gaba.jpeg",
+        "link": "https://www.linkedin.com/in/madhav-gaba/",
+         "id":""
+    },
+    {
+        "name": "Ritesh Aggarwal",
+        "desc": "Ritesh Aggarwal is a fourth year student at Panjab University. He got selected for Google Summer of Code as a student developer and is currently mentoring an android project there. He is well-experienced in Android development, Hybrid App development, React Native and REST APIs.",
+        "img": "/img/speakers/Ritesh Aggarwal.jpeg",
+        "link": "https://www.linkedin.com/in/ritesh-ag/",
+         "id":""
+    },
+     {
+        "name": "Sonia singla",
+        "desc": "Sonia was a Community Bridge Mentee at Cloud Native Computing Foundation in 2020 and Outreachy 2019 intern at Mozilla. Currently pursuing her B.E in Information Technology, she is a Mozilla represetative and an avid Open- Source Contributor.",
+        "img": "/img/archive/Sonia singla.jpg",
+        "link": "https://www.linkedin.com/in/soniasinglas/",
+         "id":"2oAoFXDRbuA"
+    }
+]
+]
