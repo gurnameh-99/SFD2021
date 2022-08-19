@@ -4,7 +4,7 @@ import { useCycle } from "framer-motion";
 import ImageHolder from "./ImageHolder";
 import IconHolder from "./IconHolder";
 
-import { gatherTown, Uiet } from "./scenes";
+import { Uiet } from "./scenes";
 
 import "./banner.css";
 import { Row } from "antd";
