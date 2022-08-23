@@ -89,7 +89,7 @@ const CFP = () => {
         <Row justify="center" style={{ paddingBlockEnd: "3em" }}>
           <CustomNavLinkSmall
             style={{ width: "180px" }}
-            onClick={() => window.open("https://www.papercall.io/sfd-2021", "_blank")}
+            onClick={() => window.open("https://www.papercall.io/pclub-sfd-2022", "_blank")}
           >
             <Span>
               <Button color={"#40af92"}>{"Submit Proposal"}</Button>
