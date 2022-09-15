@@ -17,7 +17,7 @@ const routes = [
   {
     path: ["/Schedule"],
     exact: true,
-    component: "ComingSoon",
+    component: "Schedule",
   },
   {
     path: ["/CodeofConduct"],
