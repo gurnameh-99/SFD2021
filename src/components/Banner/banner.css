@@ -45,6 +45,8 @@
     display: block;
     margin: auto;
     max-width: 100%;
+    min-width: 100px ;
+    min-height: 100px ;
   }
   
   .icon-holder__text {

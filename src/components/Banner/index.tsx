@@ -4,14 +4,14 @@ import { useCycle } from "framer-motion";
 import ImageHolder from "./ImageHolder";
 import IconHolder from "./IconHolder";
 
-import { Uiet } from "./scenes";
+import { gfg, GR, TM, IC, ES, BL } from "./scenes";
 
 import "./banner.css";
 import { Row } from "antd";
 const SLIDE_CHANGE_TIME_MS = 4000;
 
 const Banner = () => {
-  const [currentScene, setCurrentScene] = useCycle(Uiet);
+  const [currentScene, setCurrentScene] = useCycle(gfg, GR, TM, IC, ES, BL);
 
   useEffect(() => {
     const timeOut = setTimeout(setCurrentScene, SLIDE_CHANGE_TIME_MS);
