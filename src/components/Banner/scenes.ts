@@ -1,6 +1,5 @@
 /* Icons */
 import gfgIcon from "./assets/icons/gfg.svg";
-import GatherIcon from "./assets/icons/Gather.svg";
 import gradIcon from "./assets/icons/gradright.jpeg";
 import techIcon from "./assets/icons/techmahindra.png";
 import easyIcon from "./assets/icons/easyshishka.png";
