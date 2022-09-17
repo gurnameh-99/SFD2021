@@ -1,68 +1,26 @@
 [
     {
-        "name": "Gokul Alex",
-        "desc": "Gokul Alex is adept in Digital Transformation, Data Science, Distributed Ledger and Innovation Consulting. He has over 20 years of experience in designing world class enterprise architectures for both government and private sectors. He is the co-founder and Chief Technology officer at Gigamesh Garage Ventures. He is also the chief architect of Somish Labs and founder of EPIC knowledge society.",
-        "img": "/img/speakers/Gokul Alex.jpeg",
-        "link": "https://www.linkedin.com/in/gokulgaze"
+        "name": "Karan Balkar",
+        "desc": "Karan Balkar is a mobile application developer primarily working on Android for the past 5 years. He has also worked on Augmented reality / Virtual reality based mobile applications and is passionate about exploring innovative technologies. He also writes a blog named, Threads of Life.",
+        "img": "/img/speakers/karan-balkar.jpeg",
+        "link": "https://karanbalkar.com/"
     },
     {
-        "name": "Zarreen Naowal Reza",
-        "desc": "Zarreen has a plethora of experience working as a data scientist. She is now employed at Thales Canada Inc, and has also worked as research scientist at OpenMined. An alumni of Windsor University with various accolades like Nutix Hybrid Cloud Scholar and Leadership Fellow, she would be with us at SFD sharing her experience and her skills that makes her so good at what she does.",
-        "img": "/img/speakers/Zarreen Naowal Reza.png",
-        "link": "https://www.linkedin.com/in/zarreennreza/"
+        "name": "Umang Kalra",
+        "desc": "Now I’d like to welcome Umang Kalra. He is a graduate from IIIT Pune, and the founder, CEO of Octaflyte. Apart from being a Microsoft Imagine Cup '22 National pre-finalist, he also works towards developing scalable GIS applications. He has also worked with Godot Engine for GSoC '21.",
+        "img": "/img/speakers/umang-kalra.jpeg",
+        "link": "https://www.linkedin.com/in/umang-kalra-202a44169/?originalSubdomain=in"
     },
     {
-        "name": "Madhava Jay",
-        "desc": "He is an Artificial Intelligence Engineer with 18 years of experience with the web and more than a decade worth of experience with mobile apps. He has been working with AI since 2017. He graduated from Udacity’s 6 months Artificial Intelligence Nanodegree choosing Computer Vision as his final capstone project. He has enjoyed several leadership roles throughout his career and aims to meaningfully contribute in the area of AI and technology.",
-        "img": "/img/speakers/Madhava Jay.jfif",
-        "link": "https://www.linkedin.com/in/madhavajay/"
+        "name": "Sandeep Singh",
+        "desc": "Sandeep Singh is an Open Source enthusiast who writes code out of the profession and loves to engage in tech communities out of passion. He is also an events manager at Koii and was previously part of various communities like Commudle, CodeAsylums, Merge Intern.",
+        "img": "/img/speakers/sandeep-singh.jpeg",
+        "link": "https://www.linkedin.com/in/sandybcsald/?originalSubdomain=in"
     },
     {
-        "name": "Sonia Singla",
-        "desc": "Sonia Singhla, alumni of Panjab University, is an open-source enthusiast and is passionate about browsers, web compatibility, developer tooling and developer communities. She is currently employed at tendermint as a developer relations engineer and completed her internship with Embark studios. She was CNCF 2020 intern at thanos monitoring and has been working with the web compatibility team of Mozilla.",
-        "img": "/img/speakers/Sonia Singla.jpg",
-        "link": "https://www.linkedin.com/in/soniasinglas/?originalSubdomain=in"
-    },
-    {
-        "name": "Adyasha Mohanty",
-        "desc": "Adyasha is an undergrad from CET, Bhubaneswar, specialising in UI/UX, frontend and software engineering. She is currently interning at Hackerrank and has worked as Frontend and UI/UX Developer Intern at uncopied.art. Not only this she has also been a mentor at GirlScript Summer of Code and a software developer at Zairza. She will be sharing her experience to the UI/UX aspirers at SFD this year.",
-        "img": "/img/speakers/Adyasha Mohanty.jpg",
-        "link": "https://www.linkedin.com/in/adyasha-mohanty/"
-    },
-    {
-        "name": "Apaar Kamal",
-        "desc": "Apaar Kamal has just finished his undergrad at DTU and has taken up the role of Software Engineer at Google. His day to day work involves Google Cloud Platform. But his achievements don't stop here. He is a 6 star competitive programmer. Not only this, he has had experience as mentor at his time at Coding Block and Coding Minutes. With so many feathers in his cap, he would be joining us at SFD to guide the young audience. ",
-        "img": "/img/speakers/Apaar Kamal.png",
-        "link": "https://www.linkedin.com/in/apaarkamal"
-    },
-    {
-        "name": "Akshay Kumar",
-        "desc": "Akshay Kumar is an alumnus of Panjab University. He is currently Software Development Engineer at AppyHigh, working mostly on backend. Apart from that, he has also interned as a mentor for GSOC and also as a Software Developer at Block8, not only this, he has worked on blockchain and hyperledger at his time as an intern at Chaincode Consulting. Akshay has also been a GSOC student developer at KDE in 2019.",
-        "img": "/img/speakers/Akshay Kumar.jpg",
-        "link": "https://www.linkedin.com/in/dev-akshay-kumar/"
-    },
-    {
-        "name": "Jivitesh Dhaliwal",
-        "desc": "Jivitesh Dhaliwal is an alumnus of Panjab University. He is currently working as a Game Designer Lead at Otherworld Interactive. His experience is diverse, ranging from assistant professor teaching game development to working on code to improve 4G router performance by designing traffic routing algorithms. He has also previously interned as game developer at Sony.",
-        "img": "/img/speakers/Jivitesh Dhaliwal.jpg",
-        "link": "https://www.linkedin.com/in/jiviteshdhaliwal/"
-    },
-    {
-        "name": "Pranav Kumar",
-        "desc": "Pranav Kumar is an alumnus of Panjab University. He is currently working as Embedded Systems Engineer at Flux Auto and has worked at Riku too. He is an avid Open Source Contributor and has contributed quite a bit at BeagleBoard. Not only this he also has experience in research and has worked with 3d printing technologies on it. Pranav also has experience working with Robot Operating System and swarm robotics.",
-        "img": "/img/speakers/Pranav Kumar.jpg",
-        "link": "https://www.linkedin.com/in/pranav083/"
-    },
-    {
-        "name": "Madhav Gaba",
-        "desc": "With a strong hold in Data Structures and Algorithms with an impressive track record in Open Source and GSOC, Madhav Gaba has also made his name in corporate. He is currently an SDE at ShareChat and has also interned at Goldman Sachs. He will be sharing his experience and know-hows at SFD this year.",
-        "img": "/img/speakers/Madhav Gaba.jpeg",
-        "link": "https://www.linkedin.com/in/madhav-gaba/"
-    },
-    {
-        "name": "Ritesh Aggarwal",
-        "desc": "Ritesh Aggarwal is a fourth year student at Panjab University. He got selected for Google Summer of Code as a student developer and is currently mentoring an android project there. He is well-experienced in Android development, Hybrid App development, React Native and REST APIs. He secured second position at college level in Smart India Hackathon and has a 4-star rating in CodeChef.",
-        "img": "/img/speakers/Ritesh Aggarwal.jpeg",
-        "link": "https://www.linkedin.com/in/ritesh-ag/"
+        "name": "Kartik Ohri",
+        "desc": "Kartik Ohri is a software developer and ListenBrainz lead. He has experience of participating in the Open Source community since 2017. He is also a graduate from Jawaharlal Nehru University. Kartik also has the experience of mentoring students during GSoC.",
+        "img": "/img/speakers/karthik-ohri.jpeg",
+        "link": "https://in.linkedin.com/in/kartik-ohri"
     }
 ]
